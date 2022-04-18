@@ -17,5 +17,7 @@ $ git config --global user.email "wahradar511@gmail.com"
 6. check status kembali
 $ git config --list
 
-7. 
+7. langkah selanjutnya klik folder filenya, lalu klik kanan Git Bash Here
+
+8. 
 
