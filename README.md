@@ -58,6 +58,22 @@ $ git status
 20. history
 $ git log
 
+21. add remote
+$ git remote add // kalau gini doang salah
+$ git remote add origin https://github.com/RadBile2022/uji-dua.git
+
+22. check nama remote (version)
+$ git remote -v
+
+23. push ke git hub
+$ git push origin master
+
+24. check history
+$ git log
+
+25. check nama branching
+$ git log
+
 
 
 
