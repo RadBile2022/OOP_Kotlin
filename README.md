@@ -52,11 +52,12 @@ $ git status
 18. commit kedua
 $ git commit -m "upload kedua"
 
-19. check status kembali
+19. check status kembali // untuk memastikan mana file yg udah di commit maupun di add
 $ git status
 
 20. history
 $ git log
+
 
 
 
