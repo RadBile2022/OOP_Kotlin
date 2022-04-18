@@ -72,7 +72,9 @@ $ git push origin master
 $ git log
 
 25. check nama branching
-$ git log
+$ git branch
+
+
 
 
 
