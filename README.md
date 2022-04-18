@@ -74,6 +74,99 @@ $ git log
 25. check nama branching
 $ git branch
 
+==========================================
+
+PC-10@DESKTOP-CAETJLK MINGW64 /d/Kotlin/Dasar_Kotlin (master)
+$ git remote -v
+origin  https://github.com/RadBile2022/uji-satu.git (fetch)
+origin  https://github.com/RadBile2022/uji-satu.git (push)
+
+PC-10@DESKTOP-CAETJLK MINGW64 /d/Kotlin/Dasar_Kotlin (master)
+$ git log
+commit 906f56055c379976790f36a882c9e614f3ef78a7 (HEAD -> master, origin/master)
+Author: PC-10 <myprmn>
+Date:   Mon Apr 18 08:11:24 2022 +0700
+
+    satu commit
+
+commit f072021d2a1230e71b81abb4d369faeec8e30fed
+Author: PC-10 <myprmn>
+Date:   Tue Mar 1 11:21:08 2022 +0700
+
+    Penambahan Overloading dan function
+
+PC-10@DESKTOP-CAETJLK MINGW64 /d/Kotlin/Dasar_Kotlin (master)
+$ alias graph="git log --oneline --decorate --graph --all"
+
+PC-10@DESKTOP-CAETJLK MINGW64 /d/Kotlin/Dasar_Kotlin (master)
+$ graph
+* 906f560 (HEAD -> master, origin/master) satu commit
+* f072021 Penambahan Overloading dan function
+
+PC-10@DESKTOP-CAETJLK MINGW64 /d/Kotlin/Dasar_Kotlin (master)
+$
+Display all 4972 possibilities? (y or n)
+
+PC-10@DESKTOP-CAETJLK MINGW64 /d/Kotlin/Dasar_Kotlin (master)
+$
+
+PC-10@DESKTOP-CAETJLK MINGW64 /d/Kotlin/Dasar_Kotlin (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+PC-10@DESKTOP-CAETJLK MINGW64 /d/Kotlin/Dasar_Kotlin (master)
+$ git fetch origin master
+remote: Enumerating objects: 22, done.
+remote: Counting objects: 100% (22/22), done.
+remote: Compressing objects: 100% (21/21), done.
+remote: Total 21 (delta 11), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (21/21), 4.95 KiB | 12.00 KiB/s, done.
+From https://github.com/RadBile2022/uji-satu
+ * branch            master     -> FETCH_HEAD
+   906f560..83d05e0  master     -> origin/master
+
+PC-10@DESKTOP-CAETJLK MINGW64 /d/Kotlin/Dasar_Kotlin (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+PC-10@DESKTOP-CAETJLK MINGW64 /d/Kotlin/Dasar_Kotlin (master)
+$ graph
+* 83d05e0 (origin/master) Update README.md
+* aa9149c Update README.md
+* a27868e Update README.md
+* 6bc3a71 Update README.md
+* 60fe8eb Update README.md
+* 701fbfd Update README.md
+* a568376 Create README.md
+* 906f560 (HEAD -> master) satu commit
+* f072021 Penambahan Overloading dan function
+
+PC-10@DESKTOP-CAETJLK MINGW64 /d/Kotlin/Dasar_Kotlin (master)
+$ git pull origin master
+From https://github.com/RadBile2022/uji-satu
+ * branch            master     -> FETCH_HEAD
+Updating 906f560..83d05e0
+Fast-forward
+ README.md | 83 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 83 insertions(+)
+ create mode 100644 README.md
+
+PC-10@DESKTOP-CAETJLK MINGW64 /d/Kotlin/Dasar_Kotlin (master)
+$ graph
+* 83d05e0 (HEAD -> master, origin/master) Update README.md
+* aa9149c Update README.md
+* a27868e Update README.md
+* 6bc3a71 Update README.md
+* 60fe8eb Update README.md
+* 701fbfd Update README.md
+* a568376 Create README.md
+* 906f560 satu commit
+* f072021 Penambahan Overloading dan function
+
+PC-10@DESKTOP-CAETJLK MINGW64 /d/Kotlin/Dasar_Kotlin (master)
+$ graph berapakali komit server dan local, git fech check dari local ke server apa ada perubahan, setelah itu check di folder local
 
 
 
